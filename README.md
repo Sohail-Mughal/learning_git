@@ -1,3 +1,4 @@
+
 # learning_git
 all the commands should be executed inside git repository(containig . git directory)
 
@@ -17,7 +18,7 @@ note: always check before pushing the remote name and branch name
 8.  git push remote_name branch_name // pushing normally
 9.  gitk and gitg //GUI Tools
 10. git remote add "remote_name" ssh_address_of_remote // it will add the ssh adress of remote or http, just after this command execute 1 command to chech wether the remote is added or not. 
-11. git dif file_name // to check the edited part isnide the file.
+11. git diff file_name // to check the edited part isnide the file.
 12. git add file_name // to update what will be committed
-13. git checkout -- file_name // to discard changes in working directory
+13. git checkout file_name // to discard changes in working directory
 
