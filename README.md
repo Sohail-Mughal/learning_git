@@ -28,5 +28,5 @@ note: always check before pushing the remote name and branch name
 //creating a new branch from a point in the master branch, the commands will create a new branch having similar data as Master Branch
 14. git branch "branch_name"    //creates a branch with desires name
 15. git checkout "branch_name" //switch to a new branch. one can check the data inside by ls command
-16. 
-17.
+16. git push remote_branch :"old_branch_name_to_be_deleted"  //deletes the branch with name written as old branch
+17. git branch -m "old_branch_name" "new_branch_name"  //renames the branch from old to new
