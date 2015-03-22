@@ -23,10 +23,12 @@ note: always check before pushing the remote name and branch name
 11. git diff file_name             // to check the edited part isnide the file.
 12. git add file_name             // to update what will be committed
 13. git checkout file_name       // to discard changes in working directory
-
+14. git commit -m "reason for commiting"  //
 
 //creating a new branch from a point in the master branch, the commands will create a new branch having similar data as Master Branch
-14. git branch "branch_name"    //creates a branch with desires name
-15. git checkout "branch_name" //switch to a new branch. one can check the data inside by ls command
-16. git push remote_branch :"old_branch_name_to_be_deleted"  //deletes the branch with name written as old branch
-17. git branch -m "old_branch_name" "new_branch_name"  //renames the branch from old to new
+15. git branch "branch_name"    //creates a new branch with desires name
+16. git checkout "branch_name" //switch to a new branch. one can check the data inside by ls command
+17. git push remote_branch :"old_branch_name_to_be_deleted"  //deletes the branch with name written as old branch from remote
+18. git branch -m "old_branch_name" "new_branch_name"  //renames the branch from old to new
+19. git branch -d "branch_name"  //deletes the branch from local 
+20. git checkout -b "branch_name"  //creates a new branches and switch to the current branch.	
